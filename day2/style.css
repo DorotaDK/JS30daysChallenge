@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: rgb(41, 50, 90);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.round {
+    position: relative;
+    margin: 30vh auto 5vh;
+    height: 40vh;
+    width: 40vh;
+    border: 5px rgb(41, 50, 90) solid;
+    border-radius: 50%;
+}
+
+.sec,
+.min,
+.hour {
+    position: absolute;
+    transform-origin: 50% 100% 0;
+}
+
+.sec {
+    top: 0;
+    left: 49.5%;
+    height: 20vh;
+    width: 1%;
+    background-color: black;
+}
+
+.min {
+    top: 0;
+    left: 49.25%;
+    height: 20vh;
+    width: 1.5%;
+    background-color: rgb(41, 50, 90);
+}
+
+.hour {
+    top: 5vh;
+    left: 49.25%;
+    height: 15vh;
+    width: 1.5%;
+    background-color: rgb(41, 50, 90);
+
+}
+
+.dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 3%;
+    width: 3%;
+    border-radius: 50%;
+    background-color: rgb(41, 50, 90);
+}
